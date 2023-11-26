@@ -26,7 +26,7 @@ const MoneyFlow = () => {
            <div className='x' key={index} >{list.x}</div>
              ))}
       </div>
-      <span><img src='bargraph.png' height={'200em'}/></span>
+      <span><img src='bargraph.png' width={'300vw'}/></span>
 </div>
 <div className='y-label'>
         {Data.map((list, index) => (

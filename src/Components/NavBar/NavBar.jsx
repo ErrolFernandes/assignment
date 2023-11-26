@@ -24,17 +24,8 @@ const Navbar = () => {
           <a href="#">Activity</a>
         </div>
         </div>
-        <div className="toggle-switch">
-          {/* Toggle switch for dark mode */}
-          <label className="switch">
-            <input type="checkbox" />
-            <span className="slider round"></span>
-          </label>
-        </div>
-        <div className="profile">
-          {/* Profile section */}
-          <img src="/path/to/profile-pic.png" alt="Profile" />
-          <span>Username</span>
+        <div >
+         <span className='profile-icon'> &nbsp; </span>
         </div>
       </div>
     );

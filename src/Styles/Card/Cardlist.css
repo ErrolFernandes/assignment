@@ -31,3 +31,32 @@
     font-size: 16px;
     font-weight: 700;
 }
+
+
+@media screen and (max-width: 920px) {
+    .card{
+        width:26vw;
+  
+    }
+  
+    
+  }
+  
+  @media screen and (max-width: 620px) {
+
+    .Card{
+        display: flex;
+        justify-content: center;
+    }
+    .CardList{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2vw;
+
+        
+  }
+    .card{
+        margin: 10px;
+        
+    }
+  }
