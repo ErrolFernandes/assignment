@@ -1,0 +1,39 @@
+.NavigationBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    font-weight: 500;
+    
+}
+
+.nav-links>a{
+    margin:10px 20px;
+    color: #AFAFAF;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 6px;
+    
+}
+
+.nav-links>a:hover{
+    color:#00B3FF;
+    background-color: #E3F6FE;
+}
+
+.profile{
+    float: right;
+}
+

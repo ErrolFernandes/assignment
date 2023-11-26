@@ -1,0 +1,53 @@
+.AllExpenses>.six-months{
+    float: right;
+    margin-right:20px;
+    color: #afafaf;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 1px solid #E6E9EE;
+    border-radius: 4px;
+}
+
+.data{
+    width: 35em;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.data>span{
+    margin:10px 0;
+}
+.listname{
+    margin-bottom: 0;
+    color: #AFAFAF;
+    font-size: 14px;
+    font-weight: 500;
+}
+.list-value{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.details{
+    float: right;
+    color: #afafaf;
+    
+}
+
+.chart-info{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 16em;
+    font-weight: 500;
+}
+
+.details>span{
+    border-radius: 50%;
+    font-size: 8px;
+   padding-right: 10px;
+   margin-right: 10px;
+}

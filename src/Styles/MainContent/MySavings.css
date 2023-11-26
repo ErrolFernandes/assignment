@@ -1,0 +1,20 @@
+.MySavings>div>a{
+    float: right;
+    margin-right: 1em;
+    color: #00B3FF;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+
+.list-section{
+    margin: 10px 0;
+    font-size: 0.8em;
+}
+
+.listvalue{
+    float: right;
+    margin-right: 2em;
+    
+}
+

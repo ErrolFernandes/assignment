@@ -1,0 +1,40 @@
+.MainContent{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 18px;
+  grid-row-gap: 26px;
+  height: 60vh;
+}
+
+.MainContent>div{
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: 700;
+}
+
+.AllExpenses{
+    border: 1px solid #E6E9EE;
+  border-radius: 8px;
+  grid-area: 2 / 1 / 3 / 4;
+  
+}
+
+.MoneyFlow{
+    border: 1px solid #E6E9EE;
+  border-radius: 8px;
+  grid-area: 1 / 1 / 2 / 5;
+  
+}
+
+.MySavings{
+    border: 1px solid #E6E9EE;
+  border-radius: 8px;
+  grid-area: 1 / 5 / 2 / 7;
+}
+
+.TransactionHistory{
+    border: 1px solid #E6E9EE;
+  border-radius: 8px;
+  grid-area: 2 / 4 / 3 / 7;
+}

@@ -1,0 +1,33 @@
+.CardList{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    width: 70vw;
+    
+}
+
+.card{
+    width:16vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #E6E9EE; 
+    border-radius: 6px;
+
+}
+
+.card>p{
+    margin: 0px;
+    padding-left: 14px;
+}
+
+.name{
+    color: #AFAFAF;
+    font-size: 14px;
+    font-weight: 500;
+}
+.number{
+    font-size: 16px;
+    font-weight: 700;
+}

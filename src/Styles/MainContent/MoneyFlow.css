@@ -1,0 +1,40 @@
+.header>span{
+    float: right;
+    margin-right:20px;
+    color: #afafaf;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 1px solid #E6E9EE;
+    border-radius: 4px;
+}
+
+.x{
+    padding-bottom: 2em;
+    
+}
+
+.x-label>:nth-child(6),.x-label>:nth-child(7){
+    padding: 0;
+}
+
+.x-label{
+    font-weight: 400;
+}
+.axis{
+    display: flex;
+}
+.axis>span{
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
+.y-label{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    font-weight: 400;
+    
+
+}
